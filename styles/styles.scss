@@ -1,0 +1,38 @@
+@import "_partials.scss";
+@import "layouts/_header.scss";
+@import "layouts/_footer.scss";
+@import "layouts/_orderpage.scss";
+@import "layouts/_breadcrumbs.scss";
+@import"layouts/_landing-page.scss";
+@import "layouts/_productlist.scss";
+@import "layouts/_shopping-cart.scss";
+@import "layouts/_login-page.scss";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: $black;
+    font-family: $content-font;
+}
+
+.wrapper {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    i{
+        cursor: pointer;
+    }
+    a{
+        cursor: pointer;
+    }
+    button{
+        cursor: pointer;
+    }
+}
+main{
+    flex: 1;
+}
+
